@@ -1,4 +1,4 @@
-const { PlatformIds } = require("../constants");
+import { PlatformIds } from "../constants";
 
 // For series, SHOWID:TRACKID
 

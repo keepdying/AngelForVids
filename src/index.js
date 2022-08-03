@@ -1,5 +1,5 @@
-const { PlatformIds } = require("./constants");
-const { createNetflixAgent } = require("./agents/netflixAgent");
+import { PlatformIds } from "./constants";
+import { createNetflixAgent } from "./agents/netflixAgent";
 
 function detectPlatform() {
   if (window.hasOwnProperty("netflix")) {

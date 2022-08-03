@@ -4,4 +4,4 @@ const PlatformIds = Object.freeze({
   DISNEY_PLUS: 3
 });
 
-module.exports = { PlatformIds }
+export { PlatformIds }
